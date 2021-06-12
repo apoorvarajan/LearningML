@@ -10,7 +10,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
 df = pd.read_csv('USA_Housing.csv')
 df.head()
 
